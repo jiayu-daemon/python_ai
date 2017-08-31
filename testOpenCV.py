@@ -1,10 +1,12 @@
-#导入cv模块
-import cv2 as cv
-#读取图像，支持 bmp、jpg、png、tiff 等常用格式
-img = cv.imread("E:/PLANE/PythonProject/shell.JPG")
-#创建窗口并显示图像
-cv.namedWindow("Image")
-cv.imshow("Image",img)
-cv.waitKey(0)
-#释放窗口
-cv.destroyAllWindows()
+import cv2
+import numpy as np
+
+img = cv2.imread('bagua.jpg',0)
+rows,cols = img.shape
+
+M = np.float32([[1,0,100],[0,1,50]])
+dst = cv2.warpAffine(img,M,(cols,rows))
+
+cv2.imshow('img',dst)
+cv2.waitKey(0)
+cv2.destroyAllWindows()

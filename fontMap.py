@@ -9,7 +9,7 @@ def save(img,file_name) :
         img.save(file_name+'.jpg','JPEG')
          
 font_map = [' ','.','i','I','J','C','D','O','S','Q','G','F','E','#','&','@']
-img_name = 'shell'
+img_name = 'bagua'
 f_size = 16
 f_num_x = 100
 def main() :
