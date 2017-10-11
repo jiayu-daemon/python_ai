@@ -34,11 +34,10 @@ class Example(Frame):
         
         fileMenu = Menu(menubar)
         fileMenu.add_command(label="Open", command=self.onOpen)
-        menubar.add_cascade(label="File", menu=fileMenu)        
+        menubar.add_cascade(label="File", menu=fileMenu)
         
         self.txt = Text(self)
         self.txt.pack(fill=BOTH, expand=1)
-
 
     def onOpen(self):
       
@@ -64,7 +63,7 @@ def main():
     root = Tk()
     ex = Example()
     root.geometry("300x250+300+300")
-    root.mainloop()  
+    root.mainloop()
 
 
 if __name__ == '__main__':
