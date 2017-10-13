@@ -18,7 +18,7 @@ from tkinter.ttk import Frame, Button, Entry, Style
 class Example(Frame):
   
     def __init__(self):
-        super().__init__()   
+        super().__init__()
          
         self.initUI()
 
