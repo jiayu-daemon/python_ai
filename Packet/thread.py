@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# 代码
+
 import _thread
 import time
 
