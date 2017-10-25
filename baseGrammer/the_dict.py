@@ -14,6 +14,6 @@ d.pop('Bob')
 print(d)
 
 """
-ç”±äºŽä¸€ä¸ªkeyåªèƒ½å¯¹åº”ä¸€ä¸ªvalueï¼Œæ‰€ä»¥ï¼Œå¤šæ¬¡å¯¹ä¸€ä¸ªkeyæ”¾å…¥valueï¼ŒåŽé¢çš„å€¼ä¼šæŠŠå‰é¢çš„å€¼å†²æŽ‰
-dictæä¾›çš„getæ–¹æ³•ï¼Œå¦‚æžœkeyä¸å­˜åœ¨ï¼Œå¯ä»¥è¿”å›žNoneï¼Œæˆ–è€…è‡ªå·±æŒ‡å®šçš„value
+ÓÉÓÚÒ»¸ökeyÖ»ÄÜ¶ÔÓ¦Ò»¸övalue£¬ËùÒÔ£¬¶à´Î¶ÔÒ»¸ökey·ÅÈëvalue£¬ºóÃæµÄÖµ»á°ÑÇ°ÃæµÄÖµ³åµô
+dictÌá¹©µÄget·½·¨£¬Èç¹ûkey²»´æÔÚ£¬¿ÉÒÔ·µ»ØNone£¬»òÕß×Ô¼ºÖ¸¶¨µÄvalue
 """
